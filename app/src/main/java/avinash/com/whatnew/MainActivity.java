@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
+
         email = findViewById(R.id.emailEditText);
         pass = findViewById(R.id.passEditText);
 
@@ -94,7 +95,9 @@ public class MainActivity extends AppCompatActivity {
         FirebaseUser user=FirebaseAuth.getInstance().getCurrentUser();
         if(user !=null){
 
-            startActivity(new Intent(getApplicationContext(),UserListActivity.class));
+            startActivity(new Intent(getApplicationContext(),RegisterActivity.class));
         }
+
+
     }
 }

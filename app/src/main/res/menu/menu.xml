@@ -7,5 +7,10 @@
     <item
         android:id="@+id/register_menu"
         android:title="Register"/>
+    <item
+        android:id="@+id/userList_menu"
+        android:title="All User"/>
+<item android:id="@+id/group_menu"
+    android:title="Create Group"/>
 
 </menu>

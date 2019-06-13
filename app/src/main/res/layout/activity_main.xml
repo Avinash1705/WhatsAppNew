@@ -36,7 +36,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="189dp"
-        android:text="Sign UP" />
+        android:text="Sign UP"
+        android:background="#57a554"/>
 
     <TextView
         android:padding="10dp"
@@ -49,5 +50,7 @@
         android:layout_marginBottom="102dp"
         android:clickable="true"
         android:onClick="login"
-        android:text="Login Now" />
+        android:text="Login Now"
+        android:background="#c1fcab"
+        />
 </RelativeLayout>
