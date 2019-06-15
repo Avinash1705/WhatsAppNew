@@ -117,7 +117,7 @@ public class UserListActivity extends AppCompatActivity {
                         user.add(i.child("Name").getValue().toString());
                     } else {
                         // No user is signed in
-                        Toast.makeText(getApplicationContext(),"Will Create Problem",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(),"Current user not adding in list",Toast.LENGTH_SHORT).show();
                     }
                     tv.setText(i.child("Name").getValue().toString());
                     Log.i(TAG, "ALL Names "+i.child("Name").getValue().toString());

@@ -147,7 +147,6 @@ public class ChatActivity extends AppCompatActivity {
                     message.child("Sender").setValue(dataSnapshot.getValue());
                     message.child("Recipient").setValue(activeUSer);
                     message.child("Message").setValue(chatText);
-
                     message.child("Current UId").setValue(ChatUser.getUid());
 
                 }
